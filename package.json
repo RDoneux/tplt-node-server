@@ -1,0 +1,26 @@
+{
+  "name": "tplt-node-server",
+  "version": "0.0.0",
+  "description": "node js express server template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon ./src/index.ts",
+    "build": "node ./build.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Doneux",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/express": "^5.0.0",
+    "esbuild": "^0.24.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
